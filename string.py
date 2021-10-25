@@ -139,3 +139,139 @@
 # Python Program to Find Armstrong Number in an Interval
 # Python Program to Find the Sum of Natural Numbers
 
+
+# userInfo = "My Name is Sharvan kumar"
+
+
+# print(userInfo)
+
+# print(userInfo[0])
+
+# print(userInfo[5])
+
+# print(userInfo[-1])
+
+
+# print(userInfo[:4])
+
+# print(userInfo[4:])
+
+# print(userInfo[2:5])
+
+# print(userInfo[-4:-2])
+
+#nameOfUser = "Sharvan Kumar"
+
+# # print(nameOfUser.capitalize())
+
+# # print(nameOfUser.upper())
+
+# # print(nameOfUser.lower())
+
+# print(nameOfUser.replace("Sharvan", "World"))
+
+
+# firstName = "Sharvan"
+
+# lastName = "Kumar"
+
+
+
+# newText = "My first Name is {}" 
+
+# print(newText.format(firstName))
+
+
+# order = 50
+
+# price = 500
+
+# qty = 5
+
+
+# text = "My Total order is {qty} and price is {price} and qty is {order}"
+
+# # print(text.format(qty,price,order))
+
+
+# print(text.format(qty=20,price=500,order=20))
+
+
+# txt = "For only {price:.2f} dollars!"
+# print(txt.format(price = 49))
+
+#userInfo = "My Name is Sharvan kumar"
+
+# userInfo="Name"
+
+
+# print(userInfo)
+
+
+# print("Name" in userInfo)
+
+
+# if "Name" in userInfo:
+# 	print("Name")
+# else:
+# 	print("Nahi Hai")
+
+
+# while True:
+# 	name = input("Enter Your Name: ")
+
+# 	if name=='stop':
+# 		break
+
+
+# 	print(name)
+
+# i = 5
+# while i<=25:
+	
+# 	if i==10 or i == 21:
+# 		continue
+
+# 	print(i)
+
+# 	i = i + 1
+
+
+# for x in range(15):
+	
+# 	if x==5 or x==8:
+# 		continue
+
+# 	print(x)
+
+
+# x = 15
+# y = 20
+# # print("Before swapping")
+# # print(x)
+# # print(y)
+# # print("After swapping")
+# # temp = y
+# # y = x
+# # x = temp
+# # print(x)
+# # print(y)
+
+# print("Before swapping")
+# print(x)
+# print(y)
+
+# x = x + y # 35
+
+# y = x - y # 35 - 20 // 15
+
+
+# x = x-y # 35 - 15 = 20
+
+
+# print("After swapping")
+# print(x)
+# print(y)
+
+
+
