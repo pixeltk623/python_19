@@ -123,8 +123,8 @@ y = 8
 # x *= x  # x = x+x
 # print(x)
 
-# print(x>5 and y>16)
 # print(x>5 or y>16)
+print(x>5 and y>16)
 
 # print(not x)
 
@@ -139,3 +139,15 @@ y = 8
 # 40
 # 0.625
 # 5
+
+x=int(input())
+y=int(input())
+for x in range(1,32,x):
+    print(x)
+for y in range(1,32,y):
+    print(y)
+z= x.intersection(y)
+
+print(z)
+
+    

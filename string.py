@@ -275,3 +275,44 @@
 
 
 
+# nterms=int(input(""))
+# n1,n2=0,1
+# count=0
+# if nterms<=0:
+# 	print("positive Number")
+# elif nterms==1:
+# 	print("Fibonacci sequence upto",nterms,":")
+# 	print(n1)
+# else:
+# 	print("Fibonacci sequence:")
+# 	while count<nterms:
+# 		print(n1)
+# 		nth=n1+n2
+# 		n1=n2
+# 		n2=nth
+# 		count=count+1
+
+
+# n=int(input())
+# sum=0
+# t=n
+# while t>0:
+# 	d=t%10
+# 	sum=(sum+d**3)
+# 	t//=10
+# if n==sum:
+# 	print(n,"is Armstrong Number")
+# else:
+# 	print(n,"is not Armstrong Number")
+
+# n=int(input(""))
+# if n<0:
+# 	print("Invalid Number")
+# else:
+# 	sum=0
+# 	while n>0:
+# 		sum=sum+n
+# 		n=n-1
+# 		print("the sum is",sum)
+
+print bool(3)

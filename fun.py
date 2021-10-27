@@ -64,14 +64,36 @@
 
 # sumOfTwoNumber(a,b)
 
-def sumOfTwoNumber(x,y):
-	sumT = x + y
-	return sumT
+# def sumOfTwoNumber(x,y):
+# 	sumT = x + y
+# 	return sumT  
 	
-a = int(input("Enter The First Number:- "))
-b = int(input("Enter The Second Number:- "))
+# a = int(input("Enter The First Number:- "))
+# b = int(input("Enter The Second Number:- "))
 
-c = sumOfTwoNumber(a,b)
-print(c)
+# c = sumOfTwoNumber(a,b)
+# print(c)
 
 
+# def sumoftwonumber(a,b):
+# 	c=a+b
+# 	return c
+# a=int(input("Enter the first number:"))
+# b=int(input("Enter the second number"))
+# c=sumoftwonumber(a,b)
+# print(c)
+
+# def areaoftwonumber(x,y):
+# 	c=(x*y)/2
+# 	return c
+# a=int(input("Enter the first number:"))
+# b=int(input("Enter the second number:"))
+# c=areaoftwonumber(a,b)
+# print(c)
+
+def perimeterofcircle(c):
+	s=2*3.14*c
+	return s
+x=int(input("Enter the number:"))
+q=perimeterofcircle(x)
+print(q)
