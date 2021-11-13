@@ -127,6 +127,7 @@
 
 # Python Program to Find the Largest Among Three Numbers
 # Python Program to Calculate the Area of a Triangle
+
 # Python Program to Swap Two Variables
 # Python Program to Convert Celsius To Fahrenheit
 # Python Program to Convert Kilometers to Miles
@@ -315,14 +316,49 @@
 # 		n=n-1
 # 		print("the sum is",sum)
 
-# start=int(input())
-# end=int(input())
+# start=int(input("Start No: - "))
+# end=int(input("End Number: - "))
+
 # for i in range(start,end+1):
 #     if i>1:
-#         for j in range(3,i):
+#         for j in range(2,i):
 #             if (i%j==0):
 #                 break
 #             else:
 #                 print(i)
                 
-             
+
+# n = int(input("Enter The Number: "))
+
+# if n%2!=0:
+# 	print("Odd is ", n)
+# else:
+# 	print("Even")
+
+# sumT = 0
+# for x in range(1, 10):
+# 	if x%2!=0:
+# 		sumT = sumT + x
+# print(sumT)
+
+
+# sumT = 0
+# for x in range(1, 10):
+# 	if x%2==0:
+# 		sumT = sumT + x
+# print(sumT)
+
+
+# n = 10
+# fact = 1
+# for x in range(1,11):
+# 	fact = fact * x
+# print(fact)
+
+
+# for x in range(1,11):
+	
+# 	if x==8 or x==6 or x==5:
+# 		continue
+
+# 	print(x)

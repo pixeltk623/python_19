@@ -91,9 +91,9 @@
 # c=areaoftwonumber(a,b)
 # print(c)
 
-def perimeterofcircle(c):
-	s=2*3.14*c
-	return s
-x=int(input("Enter the number:"))
-q=perimeterofcircle(x)
-print(q)
+# def perimeterofcircle(c):
+# 	s=2*3.14*c
+# 	return s
+# x=int(input("Enter the number:"))
+# q=perimeterofcircle(x)
+# print(q)
