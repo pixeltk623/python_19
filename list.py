@@ -150,22 +150,108 @@
 
 # A simple program to count pairs with difference k
 
-def countPairsWithDiffK(arr, n, k):
-	count = 0
-	pair = []
-	for i in range(0, n):
-		for j in range(i+1, n) :
-			if arr[i] - arr[j] == k or arr[j] - arr[i] == k:
+# def countPairsWithDiffK(arr, n, k):
+# 	count = 0
+# 	pair = []
+# 	for i in range(0, n):
+# 		for j in range(i+1, n) :
+# 			if arr[i] - arr[j] == k or arr[j] - arr[i] == k:
 			
-				pair.append(arr[i])
-				pair.append(arr[j])
-				count += 1		
-	return {"count":count, "pair":pair}
-arr = [1, 5, 3, 4, 2] #5
-n = len(arr)
-k = 3
-print ("Count of pairs with given diff is ",
-				countPairsWithDiffK(arr, n, k))
+# 				pair.append(arr[i])
+# 				pair.append(arr[j])
+# 				count += 1		
+# 	return {"count":count, "pair":pair}
+# arr = [1, 5, 3, 4, 2] #5
+# n = len(arr)
+# k = 3
+# print ("Count of pairs with given diff is ",
+# 				countPairsWithDiffK(arr, n, k))
 
 
 
+# list1 = ["Tops", "Tech","Vadodara"]
+
+# list1.pop()
+
+
+# print(list1)
+
+
+# newList = ["sharvan","rahul","cinmmn","pink"]
+
+# print(newList)
+
+# newList.sort()
+
+# print(newList)
+
+
+# thisList = [100, 50,26,89,12,36]
+
+# # print(thisList)
+
+# # thisList.sort()
+
+# # print(thisList)
+
+
+# thisList.sort(reverse=True)
+
+# print(thisList)
+
+
+
+# newList = ["Sharvan","rahul","cinmmn","pink"]
+
+# print(newList)
+
+# newList.sort()
+
+# print(newList)
+
+
+# newList = ["Sharvan","rahul","cinmmn","pink"]
+
+# print(newList)
+
+# newList.sort(key = str.lower)
+
+# print(newList)
+
+
+# newList = ["sharvan","rahul","cinmmn","pink"]
+
+# print(newList)
+
+# newList.reverse()
+
+# print(newList)
+
+# newList = ["sharvan","rahul","cinmmn","pink"]
+
+# # myList = newList.copy()
+
+# # print(myList)
+
+
+# myList = list(newList)
+
+# print(myList)
+
+
+# l1 = ["a","b","c"]
+# l2 = [1,2,3]
+
+# l3 = l1 + l2
+
+# print(l3)
+
+# for x in l2:
+# 	l1.append(x)
+
+
+# print(l1)
+
+# l1.extend(l2)
+
+# print(l1)
